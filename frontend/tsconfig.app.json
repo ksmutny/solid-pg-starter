@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        // target
+        "target": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+        // jsx
+        "jsx": "preserve",
+        "jsxImportSource": "@solidjs/web",
+
+        // project references
+        "composite": true,
+        "tsBuildInfoFile": "./node_modules/.cache/tsc/app.tsbuildinfo"
+    },
+    "include": ["src"]
+}

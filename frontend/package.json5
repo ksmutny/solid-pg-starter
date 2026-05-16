@@ -1,0 +1,22 @@
+{
+    name: 'frontend',
+    private: true,
+    type: 'module',
+    scripts: {
+        'dev': 'vite --host',
+        'build': 'vite build',
+        'preview': 'vite preview',
+
+        'code:tsc': 'tsc -b',
+        'code': 'pnpm code:tsc',
+    },
+    dependencies: {
+        '@solidjs/web': '2.0.0-beta.13',
+        'solid-js': '2.0.0-beta.13',
+    },
+    devDependencies: {
+        'typescript': '6.0.3',
+        'vite': '8.0.13',
+        'vite-plugin-solid': '3.0.0-next.5',
+    },
+}

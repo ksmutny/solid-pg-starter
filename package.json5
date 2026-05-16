@@ -7,4 +7,8 @@
         node: '>=24',
         pnpm: '>=11',
     },
+    scripts: {
+        'code:fe': 'pnpm --filter frontend code',
+        'code': 'pnpm code:fe',
+    },
 }

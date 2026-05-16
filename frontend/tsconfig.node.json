@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        // target
+        "target": "ES2024",
+        "lib": ["ES2024"],
+
+        // project references
+        "composite": true,
+        "tsBuildInfoFile": "./node_modules/.cache/tsc/node.tsbuildinfo"
+    },
+    "include": ["vite.config.ts"]
+}

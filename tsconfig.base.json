@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        // module resolution
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "verbatimModuleSyntax": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+
+        // strictness
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+
+        // build mode
+        "noEmit": true,
+        "skipLibCheck": true
+    }
+}
