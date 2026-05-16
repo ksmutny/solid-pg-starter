@@ -1,0 +1,26 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[scss]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "js/ts.preferences.quoteStyle": "single"
+}

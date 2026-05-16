@@ -11,4 +11,8 @@
         'code:fe': 'pnpm --filter frontend code',
         'code': 'pnpm code:fe',
     },
+    devDependencies: {
+        'oxfmt': '0.50.0',
+        'oxlint': '1.65.0',
+    },
 }

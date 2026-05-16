@@ -8,7 +8,9 @@
         'preview': 'vite preview',
 
         'code:tsc': 'tsc -b',
-        'code': 'pnpm code:tsc',
+        'code:lint': 'oxlint',
+        'code:fmt': 'oxfmt',
+        'code': 'pnpm code:tsc && pnpm code:lint && pnpm code:fmt',
     },
     dependencies: {
         '@solidjs/router': '0.17.0-next.3',

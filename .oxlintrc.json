@@ -1,0 +1,19 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": ["typescript", "unicorn", "oxc", "import", "node", "promise"],
+    "categories": {
+        "correctness": "error",
+        "suspicious": "error",
+        "perf": "warn"
+    },
+    "env": {
+        "builtin": true,
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "import/extensions": ["error", "always", { "ignorePackages": true }],
+        "import/no-unassigned-import": ["error", { "allow": ["**/*.scss", "**/*.css"] }],
+        "typescript/ban-ts-comment": "error"
+    }
+}
