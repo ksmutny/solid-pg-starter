@@ -1,0 +1,10 @@
+{
+    name: 'solid-pg-starter',
+    description: 'Starter template for SolidJS + Node.js + PostgreSQL projects',
+    author: 'Karel Smutny <karel.smutny@outlook.com>',
+    private: true,
+    engines: {
+        node: '>=24',
+        pnpm: '>=11',
+    },
+}
