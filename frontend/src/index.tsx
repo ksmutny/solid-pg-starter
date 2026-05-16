@@ -1,3 +1,5 @@
+import './global.scss'
+
 import { render } from '@solidjs/web'
 
 import { App } from './app.tsx'
