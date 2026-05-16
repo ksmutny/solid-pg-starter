@@ -1,9 +1,11 @@
 import './app.scss'
 
-export const App = () => {
-    return (
-        <main>
-            <h1>Hello from Solid 2.0</h1>
-        </main>
-    )
-}
+import { Route, Router } from '@solidjs/router'
+
+import { HomePage } from './pages/home-page.tsx'
+
+export const App = () => (
+    <Router>
+        <Route path="/" component={HomePage} />
+    </Router>
+)

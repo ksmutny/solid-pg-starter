@@ -10,6 +10,9 @@ importers:
 
   frontend:
     dependencies:
+      '@solidjs/router':
+        specifier: 0.17.0-next.3
+        version: 0.17.0-next.3(@solidjs/web@2.0.0-beta.13(solid-js@2.0.0-beta.13))(solid-js@2.0.0-beta.13)
       '@solidjs/web':
         specifier: 2.0.0-beta.13
         version: 2.0.0-beta.13(solid-js@2.0.0-beta.13)
@@ -335,6 +338,12 @@ packages:
 
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+
+  '@solidjs/router@0.17.0-next.3':
+    resolution: {integrity: sha512-zI3bvcSNkIe89Hy5/s4u14OrcCUspUq5FFbqKNME0BuofTnbZmn9MXcG9cdQiNYI2a51JO1q5Ss9fN7YuAjM9Q==}
+    peerDependencies:
+      '@solidjs/web': '>=2.0.0-beta.7 <2.0.0-experimental.0'
+      solid-js: '>=2.0.0-beta.7 <2.0.0-experimental.0'
 
   '@solidjs/signals@2.0.0-beta.13':
     resolution: {integrity: sha512-jc+wLRK+eyUFerH8Mjed4HikdJwz3z95TT7tqyG+K00IV9jfgZWvR1nZDUEZc6kXffmtW/z+w6PNn62ea5KjIw==}
@@ -1116,6 +1125,11 @@ snapshots:
     optional: true
 
   '@rolldown/pluginutils@1.0.1': {}
+
+  '@solidjs/router@0.17.0-next.3(@solidjs/web@2.0.0-beta.13(solid-js@2.0.0-beta.13))(solid-js@2.0.0-beta.13)':
+    dependencies:
+      '@solidjs/web': 2.0.0-beta.13(solid-js@2.0.0-beta.13)
+      solid-js: 2.0.0-beta.13
 
   '@solidjs/signals@2.0.0-beta.13': {}
 
