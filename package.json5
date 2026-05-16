@@ -10,6 +10,9 @@
     scripts: {
         'code:fe': 'pnpm --filter frontend code',
         'code': 'pnpm code:fe',
+
+        'test:fe': 'pnpm --filter frontend test',
+        'test': 'pnpm test:fe',
     },
     devDependencies: {
         'oxfmt': '0.50.0',

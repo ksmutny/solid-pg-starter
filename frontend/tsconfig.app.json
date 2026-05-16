@@ -9,8 +9,11 @@
         "jsx": "preserve",
         "jsxImportSource": "@solidjs/web",
 
-        // project references
+        // project references (composite projects must emit; we only emit .d.ts into the cache)
         "composite": true,
+        "noEmit": false,
+        "emitDeclarationOnly": true,
+        "outDir": "./node_modules/.cache/tsc/app",
         "tsBuildInfoFile": "./node_modules/.cache/tsc/app.tsbuildinfo"
     },
     "include": ["src"]

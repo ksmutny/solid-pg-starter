@@ -9,5 +9,6 @@
         "composite": true,
         "tsBuildInfoFile": "./node_modules/.cache/tsc/node.tsbuildinfo"
     },
-    "include": ["vite.config.ts"]
+    "references": [{ "path": "./tsconfig.app.json" }],
+    "include": ["test", "vite.config.ts", "vitest.config.ts"]
 }

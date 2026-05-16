@@ -11,6 +11,9 @@
         'code:lint': 'oxlint',
         'code:fmt': 'oxfmt',
         'code': 'pnpm code:tsc && pnpm code:lint && pnpm code:fmt',
+
+        'test': 'vitest run',
+        'test:watch': 'vitest',
     },
     dependencies: {
         '@solidjs/router': '0.17.0-next.3',
@@ -22,5 +25,6 @@
         'typescript': '6.0.3',
         'vite': '8.0.13',
         'vite-plugin-solid': '3.0.0-next.5',
+        'vitest': '4.1.6',
     },
 }
