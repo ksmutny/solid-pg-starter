@@ -9,7 +9,8 @@
     },
     scripts: {
         'code:fe': 'pnpm --filter frontend code',
-        'code': 'pnpm code:fe',
+        'code:be': 'pnpm --filter backend code',
+        'code': 'pnpm code:fe && pnpm code:be',
 
         'test:fe': 'pnpm --filter frontend test',
         'test': 'pnpm test:fe',

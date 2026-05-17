@@ -1,0 +1,23 @@
+{
+    name: 'backend',
+    private: true,
+    type: 'module',
+    scripts: {
+        'dev': 'tsx watch src/index.ts',
+        'start': 'tsx src/index.ts',
+
+        'code:tsc': 'tsc --noEmit',
+        'code:lint': 'oxlint',
+        'code:fmt': 'oxfmt',
+        'code': 'pnpm code:tsc && pnpm code:lint && pnpm code:fmt',
+    },
+    dependencies: {
+        '@hono/node-server': '2.0.2',
+        'hono': '4.12.19',
+    },
+    devDependencies: {
+        '@types/node': '25.8.0',
+        'tsx': '4.22.1',
+        'typescript': '6.0.3',
+    },
+}

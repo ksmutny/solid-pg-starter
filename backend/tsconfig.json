@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        // target
+        "target": "ES2024",
+        "lib": ["ES2024"],
+        "types": ["node"],
+
+        // path aliases
+        "paths": {
+            "#be/*": ["./src/*"]
+        }
+    },
+    "include": ["src"]
+}
