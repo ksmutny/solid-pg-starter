@@ -10,7 +10,8 @@
     scripts: {
         'install:fe': 'pnpm install --filter frontend',
         'install:be': 'pnpm install --filter backend',
-        'install:all': 'pnpm install:fe && pnpm install:be',
+        'install:dev': './scripts/setup-dev.sh',
+        'install:all': 'pnpm install:fe && pnpm install:be && pnpm install:dev',
 
         'code:fe': 'pnpm --filter frontend code',
         'code:be': 'pnpm --filter backend code',
