@@ -8,6 +8,10 @@
         pnpm: '>=11',
     },
     scripts: {
+        'install:fe': 'pnpm install --filter frontend',
+        'install:be': 'pnpm install --filter backend',
+        'install:all': 'pnpm install:fe && pnpm install:be',
+
         'code:fe': 'pnpm --filter frontend code',
         'code:be': 'pnpm --filter backend code',
         'code': 'pnpm code:fe && pnpm code:be',
