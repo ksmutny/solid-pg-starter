@@ -2,6 +2,7 @@
     "name": "solid-pg-starter",
     "dockerComposeFile": "compose.yaml",
     "service": "solid-pg-starter",
+    "runServices": ["solid-pg-starter", "postgres"],
     "shutdownAction": "stopCompose",
     "remoteUser": "dev",
     "workspaceFolder": "/workspaces/solid-pg-starter"
