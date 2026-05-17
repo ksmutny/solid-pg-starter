@@ -4,6 +4,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    typescript:
+      specifier: 6.0.3
+      version: 6.0.3
+    vitest:
+      specifier: 4.1.6
+      version: 4.1.6
+
 importers:
 
   .:
@@ -34,10 +43,10 @@ importers:
         specifier: 4.22.1
         version: 4.22.1
       typescript:
-        specifier: 6.0.3
+        specifier: 'catalog:'
         version: 6.0.3
       vitest:
-        specifier: 4.1.6
+        specifier: 'catalog:'
         version: 4.1.6(@types/node@25.8.0)(vite@8.0.13(@types/node@25.8.0)(esbuild@0.28.0)(sass-embedded@1.99.0)(sass@1.99.0)(tsx@4.22.1))
 
   frontend:
@@ -56,7 +65,7 @@ importers:
         specifier: 1.99.0
         version: 1.99.0
       typescript:
-        specifier: 6.0.3
+        specifier: 'catalog:'
         version: 6.0.3
       vite:
         specifier: 8.0.13
@@ -65,7 +74,7 @@ importers:
         specifier: 3.0.0-next.5
         version: 3.0.0-next.5(@solidjs/web@2.0.0-beta.13(solid-js@2.0.0-beta.13))(solid-js@2.0.0-beta.13)(vite@8.0.13(@types/node@25.8.0)(esbuild@0.28.0)(sass-embedded@1.99.0)(sass@1.99.0)(tsx@4.22.1))
       vitest:
-        specifier: 4.1.6
+        specifier: 'catalog:'
         version: 4.1.6(@types/node@25.8.0)(vite@8.0.13(@types/node@25.8.0)(esbuild@0.28.0)(sass-embedded@1.99.0)(sass@1.99.0)(tsx@4.22.1))
 
 packages:

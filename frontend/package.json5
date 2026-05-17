@@ -22,9 +22,9 @@
     },
     devDependencies: {
         'sass-embedded': '1.99.0',
-        'typescript': '6.0.3',
+        'typescript': 'catalog:',
         'vite': '8.0.13',
         'vite-plugin-solid': '3.0.0-next.5',
-        'vitest': '4.1.6',
+        'vitest': 'catalog:',
     },
 }
