@@ -1,0 +1,9 @@
+services:
+    solid-pg-starter:
+        image: ghcr.io/scrumdojo/dev-playwright:v4
+        hostname: solid-pg-starter
+        volumes:
+            - devhome:/home/dev
+
+volumes:
+    devhome:

@@ -1,0 +1,8 @@
+{
+    "name": "solid-pg-starter",
+    "dockerComposeFile": "compose.yaml",
+    "service": "solid-pg-starter",
+    "shutdownAction": "stopCompose",
+    "remoteUser": "dev",
+    "workspaceFolder": "/workspaces/solid-pg-starter"
+}
