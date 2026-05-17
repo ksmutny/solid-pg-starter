@@ -10,6 +10,9 @@
         'code:lint': 'oxlint',
         'code:fmt': 'oxfmt',
         'code': 'pnpm code:tsc && pnpm code:lint && pnpm code:fmt',
+
+        'test': 'vitest run',
+        'test:watch': 'vitest',
     },
     dependencies: {
         '@hono/node-server': '2.0.2',
@@ -20,5 +23,6 @@
         '@types/node': '25.8.0',
         'tsx': '4.22.1',
         'typescript': '6.0.3',
+        'vitest': '4.1.6',
     },
 }

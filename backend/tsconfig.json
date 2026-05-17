@@ -11,5 +11,5 @@
             "#be/*": ["./src/*"]
         }
     },
-    "include": ["src"]
+    "include": ["src", "test", "vitest.config.ts"]
 }

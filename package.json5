@@ -13,7 +13,8 @@
         'code': 'pnpm code:fe && pnpm code:be',
 
         'test:fe': 'pnpm --filter frontend test',
-        'test': 'pnpm test:fe',
+        'test:be': 'pnpm --filter backend test',
+        'test': 'pnpm test:fe && pnpm test:be',
     },
     devDependencies: {
         'oxfmt': '0.50.0',
