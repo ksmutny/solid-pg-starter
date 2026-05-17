@@ -1,5 +1,5 @@
 import pino from 'pino'
 
 export const logger = pino({
-    level: 'info',
+    level: process.env.BE_LOG_LEVEL!,
 })

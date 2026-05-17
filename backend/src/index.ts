@@ -4,7 +4,7 @@ import { createApp } from '#be/app.ts'
 import { logger } from '#be/logger.ts'
 
 const app = createApp()
-const port = 3000
+const port = Number(process.env.BE_PORT)
 
 serve({ fetch: app.fetch, port }, info => {
     logger.info({ port: info.port }, 'backend listening')
