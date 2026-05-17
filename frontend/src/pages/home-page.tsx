@@ -1,4 +1,4 @@
-import { formatGreeting } from '../lib/format-greeting.ts'
+import { formatGreeting } from '#fe/lib/format-greeting.ts'
 
 export const HomePage = () => (
     <main>

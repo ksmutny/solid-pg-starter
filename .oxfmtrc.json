@@ -10,6 +10,7 @@
         "groups": [
             ["side_effect_style", "style"],
             ["builtin", "external"],
+            ["internal", "subpath"],
             ["parent", "sibling", "index"]
         ],
         "newlinesBetween": true

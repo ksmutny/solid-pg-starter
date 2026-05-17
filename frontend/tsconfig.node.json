@@ -5,6 +5,12 @@
         "target": "ES2024",
         "lib": ["ES2024"],
 
+        // path aliases
+        "paths": {
+            "#fe/*": ["./src/*"],
+            "#test/*": ["./test/*"]
+        },
+
         // project references
         "composite": true,
         "tsBuildInfoFile": "./node_modules/.cache/tsc/node.tsbuildinfo"

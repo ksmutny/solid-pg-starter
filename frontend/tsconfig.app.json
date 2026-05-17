@@ -9,6 +9,11 @@
         "jsx": "preserve",
         "jsxImportSource": "@solidjs/web",
 
+        // path aliases
+        "paths": {
+            "#fe/*": ["./src/*"]
+        },
+
         // project references (composite projects must emit; we only emit .d.ts into the cache)
         "composite": true,
         "noEmit": false,
